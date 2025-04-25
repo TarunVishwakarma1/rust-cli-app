@@ -15,6 +15,7 @@ fn main() {
     if let Err(e) = rust_cli_app::run(config){
         eprintln!("Application error: {}",e);
         process::exit(1);
+        
     }
 }
 
